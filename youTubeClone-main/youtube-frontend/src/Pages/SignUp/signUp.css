@@ -1,0 +1,94 @@
+.signUp{
+    margin-top: 56px;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.signup_card{
+    width: 40%;
+    border: 1px solid;
+    padding: 15px 25px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.5px 0.5px 8px white;
+
+}
+.signUp_title{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 32px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.signUp_Inputs{
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.signUp_Inputs_inp{
+    width: 60%;
+    height: 45px;
+    color: white;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222222;
+
+}
+
+.image_upload_signup{
+    display: flex;
+    gap: 30px;
+}
+.image_upload_signup_div{
+    width: 100px;
+    height: 100px;
+}
+.image_default_signUp{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.signUpBtns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.signUpBtn{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}
